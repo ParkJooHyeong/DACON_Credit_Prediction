@@ -3,8 +3,8 @@
 신용카드 사용자들의 개인 신상정보 데이터로 사용자의 신용카드 대금 연체 정도를 예측
 
 
-### Dataset
-#### Feature
+## Dataset
+### Feature
 - index
 - gender: 성별
 - car: 차량 소유 여부
@@ -24,11 +24,11 @@
 - family_size: 가족 규모
 - begin_month: 신용카드 발급 월 (데이터 수집 당시 (0)부터 역으로 셈, 즉, -1은 데이터 수집일 한 달 전에 신용카드를 발급함을 의미)
 
-#### Label
+### Label
 - credit: 사용자의 신용카드 대금 연체를 기준으로 한 신용도 => 낮을 수록 높은 신용의 신용카드 사용자를 의미함
 
 
-=======
-### Reference
+
+## Reference
 DACON : https://dacon.io/competitions/official/235713/overview/description     
 Catboost Documents : https://catboost.ai/docs/concepts/python-reference_catboostclassifier_fit.html
